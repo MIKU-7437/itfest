@@ -78,7 +78,7 @@ class Product(models.Model):
     )
     photo = models.ImageField(
         verbose_name='Фотография',
-        upload_to='',
+        upload_to='test/',
         blank=True,
         null=True,
     )

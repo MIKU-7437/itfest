@@ -26,6 +26,7 @@ __pycache__/
 # Backups files
 **/backups/*
 **/backend_api/backups/*
+<<<<<<< HEAD
 
 
 # Logs
@@ -52,3 +53,4 @@ __pycache__/
 *.njsproj
 *.sln
 *.sw?
+test/
