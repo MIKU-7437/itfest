@@ -1,0 +1,18 @@
+#python stuff
+Pillow
+python-dotenv
+#django stuff
+django
+django-cors-headers
+djangorestframework
+djangorestframework-simplejwt
+drf_yasg #documentation
+# database stuff
+psycopg2
+
+# без нее ошибка pkg_resources
+setuptools
+
+# Redis for Selery
+celery[redis]
+django-celery-beat

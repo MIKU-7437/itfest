@@ -1,0 +1,28 @@
+# Database files
+**/backend_api/db.sqlite3
+
+# Media uploads
+**/backend_api/media/
+**/media/
+
+# Virtual environments
+**/.venv/
+**/venv/
+
+# IDE settings
+**/.idea/
+**/.vscode/
+
+# Environment variables
+
+# Compiled Python files
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Django static files (auto-generated)
+**/staticfiles/**
+
+# Backups files
+**/backups/*
+**/backend_api/backups/*
