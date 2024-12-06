@@ -1,6 +1,4 @@
 import React, {ReactNode} from 'react';
-import Footer from "@/widgets/Footer";
-import AboutUs from "@/widgets/AboutUs/AboutUs.tsx";
 import Header from "@/widgets/Header";
 import Nav from "@/widgets/Nav/Nav.tsx";
 
@@ -20,8 +18,8 @@ const DefaultLayout: React.FC<LayoutProps> = ({children}) => {
                     {children}
                 </div>
             </div>
-            <AboutUs/>
-            <Footer/>
+            {/*<AboutUs/>*/}
+            {/*<Footer/>*/}
         </React.Fragment>
 
     );

@@ -1,10 +1,8 @@
-import { Card } from "flowbite-react";
+import {Card} from "flowbite-react";
 
 interface CardData {
     id: number
     href: string;
-    imgAlt: string;
-    imgSrc: string;
     title: string;
     description: string;
 }
@@ -20,8 +18,6 @@ const CatalogCard: React.FC<CatalogCardProps> = ({ cards }) => {
                 <Card
                     key={card.id}
                     className="max-w-sm"
-                    imgAlt={card.imgAlt}
-                    imgSrc={card.imgSrc}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         {card.title}
