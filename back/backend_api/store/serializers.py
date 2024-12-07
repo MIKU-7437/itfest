@@ -36,6 +36,7 @@ class ProductSerializer(serializers.ModelSerializer):
             'stock',
             'category',
             'photo',
+            'rating',
         ]
         depth = 1
 
