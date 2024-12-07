@@ -1,5 +1,7 @@
 from rest_framework import serializers
-from .models import Category, Product
+
+from .models import Category, Product, SliderImage
+
 
 class SubCategorySerializer(serializers.ModelSerializer):
 
@@ -36,3 +38,9 @@ class ProductSerializer(serializers.ModelSerializer):
             'photo',
         ]
         depth = 1
+
+
+class SliderImageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = SliderImage
+        fields = ['id', 'photo']
